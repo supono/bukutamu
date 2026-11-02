@@ -1,5 +1,6 @@
 <?php
 session_start();
+// sesi di mulai
 
 if (isset($_SESSION['id_user'])) {
     header('Location: dashboard.php');

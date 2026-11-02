@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 function periksaLogin() {
     if (!isset($_SESSION['id_user'])) {
-        $_SESSION['login_error'] = 'Silakan login terlebih dahulu.';
+        $_SESSION['login_error'] = 'Silakan login terlebih dahulu atuh lah..';
         header('Location: index.php');
         exit;
     }
