@@ -14,7 +14,7 @@ $hasil = null;
 
 try {
     $hasil = $koneksi->query(
-        "SELECT id_kontak, nama, alamat, jenis_kelamin, create_on
+        "SELECT *
          FROM kontak
          ORDER BY id_kontak DESC"
     );
